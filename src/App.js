@@ -18,7 +18,7 @@ function App() {
   }
 
   const submitForm = (e) => {
-    const max = 3;
+    const max = 4;
     e.preventDefault();
     const randomNumber = Math.floor(Math.random() * max);
     const numberFromStr = parseInt(playerNumber); 
